@@ -8,6 +8,6 @@ API security testing entails testing the endpoints of an application program int
 
 **`Exploiting SSRF`** [here]()
 
-Improper Assets Management.md
+**`Improper Assets Management`** [here]()
 
-Injection Attack.md
+**`Injection Attack`** [here]()
