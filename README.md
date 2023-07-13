@@ -8,6 +8,6 @@ API security testing entails testing the endpoints of an application program int
 
 **`Exploiting SSRF`** [here](https://github.com/Jkrathod/API/blob/main/Exploiting%20SSRF.md)
 
-**`Improper Assets Management`** [here]()
+**`Improper Assets Management`** [here](https://github.com/Jkrathod/API/blob/main/Improper%20Assets%20Management.md)
 
 **`Injection Attack`** [here]()
