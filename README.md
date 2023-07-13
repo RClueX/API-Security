@@ -4,4 +4,10 @@ API security testing entails testing the endpoints of an application program int
 
 **`API Authentication Attacks`** [here](https://github.com/Jkrathod/API/blob/main/API%20Authentication%20Attacks.md)
 
-**`Exploiting API Authorization`** [here]
+**`Exploiting API Authorization`** [here](https://github.com/Jkrathod/API/blob/main/Exploiting%20API%20Authorization.md)
+
+**`Exploiting SSRF`** [here]()
+
+Improper Assets Management.md
+
+Injection Attack.md
