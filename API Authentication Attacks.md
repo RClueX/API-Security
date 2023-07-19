@@ -29,13 +29,8 @@ Token predictability is one of the most easy attack vector used by hacker. It al
 	- Authentify and capture the token request (Manualy or via postman)
 	- Send the request to sequencer in burpsuite for a live capture request
 	- Create the slection and launch the attack
-		- example image
-			![[Pasted image 20221123191453.png]]
-			![[Pasted image 20221123191529.png]]
-			![[Pasted image 20221123191538.png]]
-
 	- If the tokens are similar, you can brute force some of the tokens to find valids one
-
+---
 
 <h4>JWT Attacks</h4>
 JWT tokens are base64 encoded. This then allow for us the possibility to decode them and change the value after sending it back
