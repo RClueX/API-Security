@@ -82,6 +82,7 @@ Let's intercept the account registration request for crAPI.
 
 Mass assignment attacks go beyond making attempts to become an administrator. You could also use mass assignment to gain unauthorized access to other organizations, for instance. If your user objects include an organizational group that allows access to company secrets or other sensitive information, you can attempt to gain access to that group. In this example, we’ve added an "org" variable to our request and turned its value into an attack position we could then fuzz in Burp Suite:
 
+```
 POST /api/v1/register
 
 --snip--
@@ -97,6 +98,7 @@ POST /api/v1/register
 "password":"Password1!"
 
 }
+```
 
 If you can assign yourself to other organizations, you will likely be able to gain unauthorized access to the other group’s resources. To perform such an attack, you’ll need to know the names or IDs used to identify the companies in requests. If the "org" value was a number, you could brute-force its value, like when testing for BOLA, to see how the API responds.
 
